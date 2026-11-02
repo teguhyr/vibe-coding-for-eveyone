@@ -6,6 +6,7 @@
 | **Durasi** | ± 12 jam (2 minggu, 2 sesi × 2 jam + latihan mandiri) |
 | **Prasyarat** | Laptop (Windows, macOS, atau Linux), koneksi internet, akun Claude |
 | **Hasil akhir** | Anda bisa menyiapkan alat, menulis prompt yang jelas, menjalankan dan memodifikasi skrip, memverifikasi hasilnya, dan menyimpan versi pekerjaan dengan Git |
+| **Materi modul** | [Paket Materi Level 1](dasar/README.md): 10 modul, proyek akhir, evaluasi, dan panduan fasilitator |
 
 ### Daftar Langkah
 
@@ -25,6 +26,8 @@
 ---
 
 ## Langkah 1: Memahami Vibe Coding & Pola Pikir yang Benar
+
+> 📘 **Materi lengkap:** [Modul 1: Memahami Vibe Coding & Pola Pikir yang Benar](dasar/modul-01-pola-pikir.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Memahami apa itu vibe coding, dan peran Anda di dalamnya.
 
@@ -58,6 +61,8 @@ Siklus kerja yang akan Anda ulangi terus:
 ---
 
 ## Langkah 2: Menyiapkan Alat Kerja
+
+> 📘 **Materi lengkap:** [Modul 2: Menyiapkan Alat Kerja](dasar/modul-02-menyiapkan-alat.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Semua alat terpasang dan berfungsi.
 
@@ -135,6 +140,8 @@ Siklus kerja yang akan Anda ulangi terus:
 
 ## Langkah 3: Mengenal Terminal
 
+> 📘 **Materi lengkap:** [Modul 3: Mengenal Terminal](dasar/modul-03-terminal.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Bisa berpindah folder dan menjalankan perintah tanpa ragu.
 
 📖 **Konsep:** Terminal adalah cara "mengobrol" dengan komputer lewat teks. Ibaratnya, File Explorer adalah *menu bergambar*, sedangkan terminal adalah *memesan langsung ke dapur*: lebih cepat dan lebih tepat.
@@ -182,6 +189,8 @@ cd ../..
 
 ## Langkah 4: Percakapan Pertama dengan Claude Code
 
+> 📘 **Materi lengkap:** [Modul 4: Percakapan Pertama dengan Claude Code](dasar/modul-04-claude-code-pertama.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Bisa memulai Claude Code, bertanya, dan memahami permintaan izin.
 
 🛠️ **Praktik**
@@ -225,6 +234,8 @@ cd ../..
 ---
 
 ## Langkah 5: Rumus Prompt R-C-T-C-O
+
+> 📘 **Materi lengkap:** [Modul 5: Rumus Prompt R-C-T-C-O](dasar/modul-05-prompt-rctco.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Menulis prompt yang menghasilkan program sesuai keinginan pada percobaan pertama.
 
@@ -276,6 +287,8 @@ Template lengkap ada di [`modules/00-getting-started/prompt-template.md`](../mod
 ---
 
 ## Langkah 6: Membaca Kode Tanpa Takut
+
+> 📘 **Materi lengkap:** [Modul 6: Membaca Kode Tanpa Takut](dasar/modul-06-membaca-kode.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Mengenali 6 konsep dasar pemrograman agar bisa mengikuti penjelasan AI. Anda **tidak perlu menghafal**, cukup bisa mengenali.
 
@@ -332,6 +345,8 @@ Baca kodenya baris demi baris:
 
 ## Langkah 7: Menjalankan Studi Kasus Pertama (Operasional)
 
+> 📘 **Materi lengkap:** [Modul 7: Studi Kasus Pertama — Operasional](dasar/modul-07-studi-kasus-operasional.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Menjalankan program nyata, membaca hasilnya, dan melihat pengaruh perubahan data.
 
 🛠️ **Praktik**
@@ -354,6 +369,8 @@ Baca kodenya baris demi baris:
 ---
 
 ## Langkah 8: Memverifikasi Hasil (Keuangan)
+
+> 📘 **Materi lengkap:** [Modul 8: Memverifikasi Hasil — Keuangan](dasar/modul-08-verifikasi-keuangan.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Membiasakan diri memeriksa hasil program, sama seperti Anda memeriksa pekerjaan staf baru.
 
@@ -384,6 +401,8 @@ Baca kodenya baris demi baris:
 ---
 
 ## Langkah 9: Meminta Perubahan Kecil ke AI
+
+> 📘 **Materi lengkap:** [Modul 9: Meminta Perubahan Kecil ke AI](dasar/modul-09-perubahan-kecil.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Melakukan siklus *jelaskan → buat → periksa* untuk perubahan nyata, dan meninjau apa yang diubah AI.
 
@@ -430,6 +449,8 @@ Baca kodenya baris demi baris:
 ---
 
 ## Langkah 10: Menyimpan Pekerjaan dengan Git
+
+> 📘 **Materi lengkap:** [Modul 10: Menyimpan Pekerjaan dengan Git](dasar/modul-10-git.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Menyimpan versi pekerjaan dan bisa kembali jika ada yang rusak.
 
@@ -488,6 +509,8 @@ Anda juga bisa meminta Claude: *"Buatkan commit untuk perubahan ini dengan pesan
 3. Jalankan programnya. **Verifikasi 3 baris secara manual** (aturan "Cek 3 Baris").
 4. Simpan dengan `git commit`.
 5. Tulis refleksi singkat (5 kalimat): apa yang berhasil, apa yang harus diulang, dan apa yang akan Anda tulis berbeda di prompt berikutnya.
+
+📘 **Materi lengkap, rubrik, dan kunci referensi:** [Proyek Akhir Level 1](dasar/proyek-akhir.md)
 
 **Kriteria lulus:**
 - [ ] Prompt memakai kelima bagian R-C-T-C-O

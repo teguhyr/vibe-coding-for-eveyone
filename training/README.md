@@ -24,7 +24,7 @@ Anda **tidak perlu latar belakang pemrograman**. Yang Anda butuhkan: paham masal
 
 | Level | File | Anda akan bisa... | Proyek akhir |
 |-------|------|-------------------|--------------|
-| 🟢 **Dasar** | [01-dasar.md](01-dasar.md) | Menyiapkan alat, menulis prompt yang baik, menjalankan & memodifikasi skrip, memverifikasi hasil, menyimpan versi dengan Git | Memodifikasi modul Operasional dengan prompt sendiri |
+| 🟢 **Dasar** | [01-dasar.md](01-dasar.md) + [📘 materi modul](dasar/README.md) | Menyiapkan alat, menulis prompt yang baik, menjalankan & memodifikasi skrip, memverifikasi hasil, menyimpan versi dengan Git | Memodifikasi modul Operasional dengan prompt sendiri |
 | 🟡 **Menengah** | [02-menengah.md](02-menengah.md) | Membaca kode buatan AI, menulis & menjalankan tes, debugging, memakai database SQL, membuat `CLAUDE.md`, bekerja dengan branch | Alat otomatisasi dari pekerjaan Anda sendiri, lengkap dengan tes |
 | 🔴 **Mahir** | [03-mahir.md](03-mahir.md) | Membangun aplikasi web (API + database + tampilan), mengamankan aplikasi, memakai fitur lanjutan Claude Code, mengintegrasikan Claude API, CI/CD, deploy, menjadi *AI champion* di kantor | Aplikasi web multi-pengguna untuk satu proses bisnis |
 
