@@ -8,3 +8,5 @@ __pycache__/
 *.xlsx
 *.xls
 private/
+# Local SQLite databases created during exercises
+*.db

@@ -4,6 +4,16 @@ Learn to build small, useful business tools by **describing what you want to an 
 
 No programming background needed. Start with [Module 00](modules/00-getting-started/).
 
+## 🇮🇩 Materi Pelatihan: Zero to Hero (Bahasa Indonesia)
+
+A step-by-step training path in Bahasa Indonesia that uses the modules below as case studies. Start at the [learning map](training/README.md).
+
+| Level | Materi | Hasil |
+|-------|--------|-------|
+| 🟢 Dasar | [training/01-dasar.md](training/01-dasar.md) | Menyiapkan alat, menulis prompt, menjalankan & memverifikasi skrip, Git dasar |
+| 🟡 Menengah | [training/02-menengah.md](training/02-menengah.md) | Tes, debugging, SQL, `CLAUDE.md`, branch & review, data aman |
+| 🔴 Mahir | [training/03-mahir.md](training/03-mahir.md) | Aplikasi web (Flask + React), keamanan OWASP, fitur lanjutan Claude Code, Claude API, CI/CD, Docker |
+
 ## Modules
 
 | # | Function | Use case | Key concept |

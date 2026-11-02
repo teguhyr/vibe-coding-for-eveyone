@@ -152,4 +152,12 @@ Design points that only show up when you read several modules:
 - Money uses `Decimal` (finance, accounting). Ratios and scores use `float`. A zero denominator returns `None`, displayed as `n/a`, and never raises.
 - Bad input (unknown status or priority, end before start, unclear yes/no) raises `ValueError` with the offending ID in the message. Bad input is never skipped silently.
 
-Root files: `pyproject.toml` (pytest and ruff config only; it is not an installable package), `requirements-dev.txt`, `README.md` (module index). `.gitignore` blocks `.env`, spreadsheets and `private/` to keep real data out of the repo.
+Root files: `pyproject.toml` (pytest and ruff config only; it is not an installable package), `requirements-dev.txt`, `README.md` (module index). `.gitignore` blocks `.env`, spreadsheets, `*.db` and `private/` to keep real data out of the repo.
+
+## Training Material (`training/`)
+
+`training/` holds a "zero to hero" course **in Bahasa Indonesia**: `README.md` (learning map and glossary), `01-dasar.md`, `02-menengah.md`, `03-mahir.md`. Each level is a sequence of "Langkah" (steps). Every step uses the same sub-sections (🎯 Tujuan, 📖 Konsep, 🛠️ Praktik, ⚠️ Kesalahan umum, ✅ Cek pemahaman). Each level ends with a project and a graduation checklist.
+
+- The course refers to `modules/` by path, sample output, and line content. Renaming a module, changing a sample CSV, or changing a script's CLI flags can make the training text wrong. Search `training/` when you change a module.
+- Code blocks in the training docs (the SQLite snippet in Level 2; the Flask API, React component, Claude API classifier and Dockerfile in Level 3) are not covered by `pytest`. They were tested separately, so re-test them by hand when you edit them.
+- Keep code identifiers in English and prose in Bahasa Indonesia. Keep the in-page anchor links (`#langkah-...`) in sync with the headings.
