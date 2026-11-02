@@ -1,0 +1,7 @@
+item,vendor,unit_price,lead_time_days,quality_rating
+Office Chair,Vendor A,1200000,7,4.5
+Office Chair,Vendor B,950000,14,4.0
+Office Chair,Vendor C,1100000,5,3.5
+Laptop,Vendor A,15000000,10,4.8
+Laptop,Vendor D,14200000,10,4.2
+Toner Cartridge,Vendor B,450000,3,4.0

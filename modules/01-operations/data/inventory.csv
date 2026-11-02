@@ -1,0 +1,7 @@
+sku,name,on_hand,avg_daily_usage,lead_time_days,safety_stock
+SKU-001,A4 Paper (ream),120,15,5,30
+SKU-002,Printer Toner,8,1.5,7,5
+SKU-003,Packing Tape,40,6,3,10
+SKU-004,Cardboard Box M,55,12,4,20
+SKU-005,Safety Gloves,200,10,10,50
+SKU-006,Pallet Wrap,3,2,6,4

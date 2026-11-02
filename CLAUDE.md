@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This file guides Claude Code (CLI, VS Code extension, desktop, and web) when working in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project: Vibe Coding for Everyone
 
@@ -119,16 +119,37 @@ Do not drown beginners in theory. Get something working first, then improve it.
 
 ---
 
-## Repository Structure
+## Commands
 
-The repository is just getting started. As content is added, keep this section updated, for example:
+Python 3.10+. The module scripts use **only the standard library**. `pytest` and `ruff` (pinned in `requirements-dev.txt`) are dev tools.
 
+```bash
+pip install -r requirements-dev.txt                 # one-time setup (inside .venv)
+pytest                                              # all tests (testpaths = modules/)
+pytest modules/02-finance                           # one module
+pytest modules/02-finance/test_budget_variance.py::test_sample_data   # one test
+ruff check . && ruff format --check .               # lint + format check (line length 100)
+python modules/01-operations/inventory_reorder.py   # run a module on its sample data
 ```
-/                 # Root: README, CLAUDE.md, license
-/lessons/         # Step-by-step learning modules (one folder per topic)
-/projects/        # Complete example apps (Python, PHP, React, ...)
-/snippets/        # Small reusable code examples
-/docs/            # Guides: VS Code setup, Claude Code CLI tips, etc.
-```
 
-Each project should include a `README.md` with its purpose, prerequisites, setup steps, how to run it, and how to test it.
+Date-dependent scripts take a fixed date for reproducible output: `ticket_sla.py --now 2026-11-02T12:00`, `contract_renewals.py --today 2026-11-02`. Tests use these same dates, so README sample outputs match them.
+
+## Architecture: Business-Function Modules
+
+`modules/NN-<function>/` holds one beginner lesson per business function (00 getting started, then operations, finance, HR, marketing, IT, accounting, legal, procurement, customer service, general affairs). The modules are independent of each other: there is no shared package and no imports between modules.
+
+Each module (01 onward) follows the same contract. Keep it when adding or changing modules:
+
+- `README.md` follows these sections in order: business problem → concept → **Step 1: The prompt** (an R-C-T-C-O prompt, defined in `modules/00-getting-started/`) → Step 2: Run it → Step 3: How it works → Verify by hand → Common mistakes → Exercises. The script is "what Claude might generate" from that prompt, so **the prompt's constraints and the code must agree**.
+- `data/*.csv` contains only synthetic sample data.
+- `<descriptive_name>.py` contains a frozen `@dataclass` for one row, with derived values as `@property`. It also has pure functions holding the business logic, a `load_*()` CSV reader, and an `argparse` `main()` whose default input is `Path(__file__).parent / "data" / ...`.
+- `test_<descriptive_name>.py` holds unit tests for rules and boundaries, plus a `test_sample_data` that pins the exact results on the sample CSV.
+
+Design points that only show up when you read several modules:
+
+- **File names must be unique across all modules.** Pytest runs in its default `prepend` import mode with no `__init__.py`, and tests import their sibling script by bare name (`from budget_variance import ...`). Two modules both using `app.py` or `test_app.py` would collide.
+- **Changing a sample CSV breaks that module's `test_sample_data` and the expected output in its README.** Update all three together, and recheck the README's "Verify by hand" arithmetic.
+- Money uses `Decimal` (finance, accounting). Ratios and scores use `float`. A zero denominator returns `None`, displayed as `n/a`, and never raises.
+- Bad input (unknown status or priority, end before start, unclear yes/no) raises `ValueError` with the offending ID in the message. Bad input is never skipped silently.
+
+Root files: `pyproject.toml` (pytest and ruff config only; it is not an installable package), `requirements-dev.txt`, `README.md` (module index). `.gitignore` blocks `.env`, spreadsheets and `private/` to keep real data out of the repo.

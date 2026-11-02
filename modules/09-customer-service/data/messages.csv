@@ -1,0 +1,8 @@
+ticket_id,channel,message
+T-001,email,"I was charged twice on my last invoice. Please refund ASAP!"
+T-002,chat,My package has not arrived and the tracking link shows nothing
+T-003,email,The app shows an error and crashes when I open the report
+T-004,whatsapp,I forgot my password and cannot log in to my account
+T-005,chat,Do you have a store in Surabaya?
+T-006,whatsapp,"Courier was late again. This is urgent, I need it for an event tomorrow"
+T-007,email,The payment page is not working

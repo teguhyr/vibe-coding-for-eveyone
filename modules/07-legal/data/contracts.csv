@@ -1,0 +1,7 @@
+contract_id,counterparty,contract_type,end_date,notice_days,auto_renew
+CTR-001,PT Sample Logistics,Service Agreement,2027-01-15,30,yes
+CTR-002,Example Software Inc,Software License,2026-11-30,60,yes
+CTR-003,CV Contoh Catering,Supply Agreement,2026-10-15,30,no
+CTR-004,Demo Property Co,Office Lease,2028-06-30,180,no
+CTR-005,Sample Cleaning Services,Service Agreement,2026-12-31,14,no
+CTR-006,Mock Consulting Group,NDA,2027-03-31,0,no

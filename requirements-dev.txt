@@ -1,0 +1,4 @@
+# The modules use only the Python standard library.
+# These tools are for running the tests and the linter.
+pytest==9.2.0
+ruff==0.16.9

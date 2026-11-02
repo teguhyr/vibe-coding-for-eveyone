@@ -1,0 +1,8 @@
+department,category,budget,actual
+Operations,Fuel,50000.00,58000.00
+Operations,Maintenance,30000.00,28500.00
+Marketing,Digital Ads,40000.00,31000.00
+Marketing,Events,25000.00,26000.00
+HR,Training,15000.00,18000.00
+IT,Software Licenses,20000.00,20000.00
+IT,Cloud Hosting,0.00,3500.00

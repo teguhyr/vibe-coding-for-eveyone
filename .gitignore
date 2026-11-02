@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+# Real business data must never be committed. Keep only synthetic samples in data/.
+*.xlsx
+*.xls
+private/

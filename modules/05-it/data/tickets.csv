@@ -1,0 +1,8 @@
+ticket_id,priority,category,opened_at,resolved_at
+INC-1001,P1,Email outage,2026-10-28T08:00,2026-10-28T11:30
+INC-1002,P1,VPN down,2026-10-29T09:00,2026-10-29T15:00
+INC-1003,P2,Printer offline,2026-10-29T10:00,2026-10-29T16:00
+INC-1004,P3,New laptop setup,2026-10-27T09:00,2026-10-29T09:00
+INC-1005,P2,Shared drive slow,2026-11-02T08:00,
+INC-1006,P4,Software request,2026-10-30T09:00,
+INC-1007,P3,Password reset,2026-11-02T07:00,2026-11-02T07:20
