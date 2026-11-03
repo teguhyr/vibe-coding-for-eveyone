@@ -10,9 +10,9 @@ A step-by-step training path in Bahasa Indonesia that uses the modules below as 
 
 | Level | Materi | Hasil |
 |-------|--------|-------|
-| 🟢 Dasar | [training/01-dasar.md](training/01-dasar.md) | Menyiapkan alat, menulis prompt, menjalankan & memverifikasi skrip, Git dasar |
+| 🟢 Dasar | [training/01-dasar.md](training/01-dasar.md) + [modul](training/dasar/README.md) | Menyiapkan alat, menulis prompt, menjalankan & memverifikasi skrip, Git dasar |
 | 🟡 Menengah | [training/02-menengah.md](training/02-menengah.md) + [modul](training/menengah/README.md) | Tes, debugging, SQL, `CLAUDE.md`, branch & review, data aman |
-| 🔴 Mahir | [training/03-mahir.md](training/03-mahir.md) | Aplikasi web (Flask + React), keamanan OWASP, fitur lanjutan Claude Code, Claude API, CI/CD, Docker |
+| 🔴 Mahir | [training/03-mahir.md](training/03-mahir.md) + [modul](training/mahir/README.md) | Aplikasi web (Flask + React), keamanan OWASP, fitur lanjutan Claude Code, Claude API, CI/CD, Docker |
 
 ## Modules
 
