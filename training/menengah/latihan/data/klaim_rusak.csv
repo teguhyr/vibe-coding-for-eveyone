@@ -1,0 +1,5 @@
+claim_id,employee_id,department,category,expense_date,submitted_date,amount,receipt
+C-11,K001,Sales,meal,2026-10-05,2026-10-06,120000,yes
+C-12,K002,Finance,meals,2026-10-08,2026-10-09,95000,yes
+C-13,K003,IT,transport,2026-10-32,2026-11-01,250000,yes
+C-14,K004,Operations,lodging,2026-10-20,2026-10-22,900000,ya

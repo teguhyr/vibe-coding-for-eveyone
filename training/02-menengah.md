@@ -6,6 +6,7 @@
 | **Durasi** | ± 25 jam (4 minggu) |
 | **Prasyarat** | Semua item [Checklist Level 1](01-dasar.md#-checklist-kelulusan-level-1) tercentang |
 | **Hasil akhir** | Anda bisa membaca kode buatan AI, membuktikan kebenarannya dengan tes, memperbaiki error, memakai database SQL, dan membangun alat otomatisasi dari pekerjaan Anda sendiri |
+| **Materi modul** | [Paket Materi Level 2](menengah/README.md): 10 modul, file latihan, proyek akhir, evaluasi, dan panduan fasilitator |
 
 ### Daftar Langkah
 
@@ -25,6 +26,8 @@
 ---
 
 ## Langkah 1: Membaca Anatomi Program Buatan AI
+
+> 📘 **Materi lengkap:** [Modul 1: Membaca Anatomi Program Buatan AI](menengah/modul-01-anatomi-program.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Memahami *struktur* program, bukan setiap baris, agar Anda tahu bagian mana yang harus diperiksa.
 
@@ -62,6 +65,8 @@ Lalu beri 3 contoh tanggal yang hasilnya mungkin mengejutkan orang HR.
 ---
 
 ## Langkah 2: Tes Otomatis dengan pytest
+
+> 📘 **Materi lengkap:** [Modul 2: Tes Otomatis dengan pytest](menengah/modul-02-pytest.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Membuktikan program benar secara otomatis, bukan hanya "kelihatannya benar".
 
@@ -131,6 +136,8 @@ tunjukkan ke saya, lalu setelah saya setujui, baru ubah kodenya sampai tes lulus
 
 ## Langkah 3: Debugging Bersama AI
 
+> 📘 **Materi lengkap:** [Modul 3: Debugging Bersama AI](menengah/modul-03-debugging.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Membaca pesan error dan memperbaikinya secara sistematis.
 
 📖 **Konsep:** Pesan error (*traceback*) adalah **petunjuk, bukan hukuman**. Bacalah **dari bawah ke atas**: baris terakhir menyebutkan *apa* masalahnya, baris-baris di atasnya menunjukkan *di mana*.
@@ -177,6 +184,8 @@ Cara membacanya:
 
 ## Langkah 4: Merencanakan Perubahan Besar (Plan Mode)
 
+> 📘 **Materi lengkap:** [Modul 4: Merencanakan Perubahan Besar (Plan Mode)](menengah/modul-04-plan-mode.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Memecah tugas besar menjadi langkah kecil yang bisa diperiksa.
 
 📖 **Konsep:** Untuk perubahan yang menyentuh banyak bagian, minta **rencana dulu, kode belakangan**. Seperti membangun rumah: gambar arsitek disetujui dulu sebelum mulai mengecor.
@@ -205,6 +214,8 @@ Claude Code punya **Plan Mode**: Claude hanya membaca dan menyusun rencana, tanp
 ---
 
 ## Langkah 5: Kode yang Rapi: Linter & Formatter
+
+> 📘 **Materi lengkap:** [Modul 5: Kode yang Rapi: Linter & Formatter](menengah/modul-05-linter-formatter.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Menjaga kode tetap konsisten dan mudah dibaca, oleh Anda, rekan kerja, dan AI.
 
@@ -245,6 +256,8 @@ Jalankan pytest, ruff check, dan ruff format --check. Perbaiki semua masalah yan
 ---
 
 ## Langkah 6: Database & SQL dengan SQLite
+
+> 📘 **Materi lengkap:** [Modul 6: Database & SQL dengan SQLite](menengah/modul-06-sqlite.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Memindahkan data dari CSV ke database, dan mengambil data dengan SQL.
 
@@ -332,6 +345,8 @@ Hasilnya sama dengan modul 01, tetapi kali ini dihitung oleh database:
 
 ## Langkah 7: CLAUDE.md: "SOP" untuk Asisten AI Anda
 
+> 📘 **Materi lengkap:** [Modul 7: CLAUDE.md: "SOP" untuk Asisten AI Anda](menengah/modul-07-claude-md.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Membuat Claude memahami proyek Anda tanpa harus dijelaskan ulang setiap kali.
 
 📖 **Konsep:** `CLAUDE.md` adalah file yang **otomatis dibaca Claude** setiap kali bekerja di proyek Anda. Anggap saja **SOP + buku panduan untuk karyawan baru**: perintah apa yang dipakai, aturan apa yang wajib, dan jebakan apa yang harus dihindari.
@@ -371,6 +386,8 @@ Hasilnya sama dengan modul 01, tetapi kali ini dihitung oleh database:
 ---
 
 ## Langkah 8: Branch, Review, dan Kolaborasi
+
+> 📘 **Materi lengkap:** [Modul 8: Branch, Review, dan Kolaborasi](menengah/modul-08-branch-review.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Bekerja dengan aman di tim: eksperimen tidak merusak versi utama, dan setiap perubahan ditinjau.
 
@@ -420,6 +437,8 @@ git merge fitur-export-excel
 
 ## Langkah 9: Data Asli dengan Aman
 
+> 📘 **Materi lengkap:** [Modul 9: Data Asli dengan Aman](menengah/modul-09-data-aman.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Memakai alat buatan Anda pada data asli **tanpa** membocorkan data pribadi atau rahasia.
 
 📖 **Konsep: Pola "Bangun dengan Data Palsu, Jalankan dengan Data Asli"**
@@ -467,6 +486,8 @@ git merge fitur-export-excel
 
 ## Langkah 10: Latihan Studi Kasus Lintas Fungsi
 
+> 📘 **Materi lengkap:** [Modul 10: Studi Kasus Lintas Fungsi](menengah/modul-10-studi-kasus-lintas-fungsi.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Melatih semua keterampilan Level 2 pada berbagai fungsi bisnis.
 
 🛠️ **Praktik:** Kerjakan **minimal 3** dari latihan berikut. Untuk setiap latihan: buat branch, rencanakan (Plan Mode), tulis tes dulu, implementasi, jalankan pytest + ruff, minta review, lalu commit.
@@ -504,6 +525,8 @@ git merge fitur-export-excel
 4. Pastikan `pytest`, `ruff check .`, dan `ruff format --check .` lulus.
 5. Minta Claude meninjau sebagai reviewer, perbaiki temuan penting, lalu commit.
 6. **Presentasikan** (10 menit) ke rekan atau atasan: masalahnya, demo, cara verifikasi, dan berapa waktu yang dihemat per bulan.
+
+📘 **Materi lengkap, kanvas masalah, rubrik, dan contoh referensi:** [Proyek Akhir Level 2](menengah/proyek-akhir.md)
 
 **Kriteria lulus:**
 - [ ] Menyelesaikan masalah nyata dari pekerjaan Anda
