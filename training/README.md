@@ -37,6 +37,7 @@ Anda **tidak perlu latar belakang pemrograman**. Yang Anda butuhkan: paham masal
 3. **Gunakan modul studi kasus.** Folder [`../modules/`](../modules/) berisi 10 studi kasus per fungsi bisnis. Materi ini akan sering merujuk ke sana.
 4. **Cek checklist kelulusan** di akhir setiap level. Jika semua tercentang, lanjut ke level berikutnya.
 5. **Belajar berkelompok lebih efektif.** Satu sesi mingguan 2 jam + latihan mandiri adalah ritme yang baik.
+6. **Pakai paket modul.** Setiap level punya paket lengkap ([Dasar](dasar/README.md), [Menengah](menengah/README.md), [Mahir](mahir/README.md)): 10 modul dengan latihan dan kunci jawaban, file latihan yang sudah diuji, proyek akhir dengan rubrik, pre/post-test, dan **panduan fasilitator** untuk Anda yang ingin membawakan pelatihan ini di kantor.
 
 ### Struktur setiap langkah
 

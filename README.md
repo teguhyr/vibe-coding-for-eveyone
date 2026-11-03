@@ -2,17 +2,28 @@
 
 Learn to build small, useful business tools by **describing what you want to an AI assistant** (Claude Code). Each module takes a real problem from a business function, gives you the prompt to use, a working example, tests, and exercises.
 
-No programming background needed. Start with [Module 00](modules/00-getting-started/).
+No programming background needed. There are two ways in:
+
+- **Self-study in English:** start with [Module 00](modules/00-getting-started/), then pick the module for your business function.
+- **Structured course in Bahasa Indonesia:** follow the three-level training path below, from first terminal command to a secured web app your team uses.
 
 ## 🇮🇩 Materi Pelatihan: Zero to Hero (Bahasa Indonesia)
 
 A step-by-step training path in Bahasa Indonesia that uses the modules below as case studies. Start at the [learning map](training/README.md).
 
-| Level | Materi | Hasil |
-|-------|--------|-------|
-| 🟢 Dasar | [training/01-dasar.md](training/01-dasar.md) + [modul](training/dasar/README.md) | Menyiapkan alat, menulis prompt, menjalankan & memverifikasi skrip, Git dasar |
-| 🟡 Menengah | [training/02-menengah.md](training/02-menengah.md) + [modul](training/menengah/README.md) | Tes, debugging, SQL, `CLAUDE.md`, branch & review, data aman |
-| 🔴 Mahir | [training/03-mahir.md](training/03-mahir.md) + [modul](training/mahir/README.md) | Aplikasi web (Flask + React), keamanan OWASP, fitur lanjutan Claude Code, Claude API, CI/CD, Docker |
+| Level | Rencana | Paket modul | Durasi | Hasil |
+|-------|---------|-------------|--------|-------|
+| 🟢 Dasar | [01-dasar.md](training/01-dasar.md) | [training/dasar/](training/dasar/README.md) | ± 12 jam, 2 minggu (4 sesi) | Menyiapkan alat, menulis prompt R-C-T-C-O, menjalankan & memverifikasi skrip, Git dasar |
+| 🟡 Menengah | [02-menengah.md](training/02-menengah.md) | [training/menengah/](training/menengah/README.md) | ± 25 jam, 4 minggu (8 sesi) | Tes, debugging, SQL, `CLAUDE.md`, branch & review, data aman |
+| 🔴 Mahir | [03-mahir.md](training/03-mahir.md) | [training/mahir/](training/mahir/README.md) | ± 45 jam, 6–8 minggu (12 sesi) | Aplikasi web (Flask + React), keamanan OWASP, fitur lanjutan Claude Code, Claude API, CI/CD, Docker |
+
+Each level has a **plan** (`0N-<level>.md`, one "Langkah" per step) and a **module pack** with:
+
+- 10 modules, one per Langkah: material, guided practice, graded exercises (⭐ to ⭐⭐⭐), a quiz and an answer key
+- a final project with a grading rubric and a reference answer
+- a 15-question pre/post test and graduation criteria
+- a facilitator guide with a minute-by-minute session rundown: [Dasar](training/dasar/panduan-fasilitator.md), [Menengah](training/menengah/panduan-fasilitator.md), [Mahir](training/mahir/panduan-fasilitator.md)
+- a `latihan/` folder with tested practice code and answer keys
 
 ## Modules
 
@@ -40,6 +51,8 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
+On Windows, activate with `.venv\Scripts\Activate.ps1` (PowerShell) or `.venv\Scripts\activate.bat` (Command Prompt).
+
 ```bash
 pip install -r requirements-dev.txt
 ```
@@ -53,6 +66,53 @@ python modules/01-operations/inventory_reorder.py
 ```
 
 The example scripts use only the Python standard library. `pytest` and `ruff` are only needed for testing and linting.
+
+Check that the code is tidy (the same checks run before every change):
+
+```bash
+ruff check . && ruff format --check .
+```
+
+### Training practice files
+
+`pytest` on its own runs only `modules/`. The practice code in `training/` has its own tests; run each folder separately:
+
+```bash
+pytest training/menengah/latihan/test_expense_claims.py training/menengah/latihan/kunci
+```
+
+```bash
+pip install -r training/mahir/latihan/ruang-rapat/backend/requirements.txt
+```
+
+```bash
+pytest training/mahir/latihan/ruang-rapat/backend
+```
+
+```bash
+pytest training/mahir/latihan/kunci/backend-lengkap
+```
+
+```bash
+pytest training/mahir/latihan/klasifikasi
+```
+
+`training/menengah/latihan/test_overtime_pay.py` is **meant to fail 1 of 4 tests**: it holds a planted bug for the Level 2 debugging lesson. The Level 3 Claude API tests use a fake client, so they need no API key.
+
+## Repository layout
+
+```
+modules/            10 business-function lessons (English): script, tests, synthetic CSV, README
+  00-getting-started/   tools, the vibe coding loop, the R-C-T-C-O prompt template
+training/           Zero-to-hero course (Bahasa Indonesia)
+  README.md             learning map, glossary, data safety rules
+  01-dasar.md ...       level plans (one "Langkah" per step)
+  dasar/ menengah/ mahir/   module packs: modules, practice code, final project, tests, facilitator guide
+CLAUDE.md           Instructions Claude Code follows in this repo (conventions, commands, gotchas)
+pyproject.toml      pytest and ruff settings (not an installable package)
+```
+
+Working on this repo with Claude Code? [CLAUDE.md](CLAUDE.md) explains the module contract, why file names must be unique, and which training text quotes which program output.
 
 ## Data privacy
 
