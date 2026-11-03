@@ -83,7 +83,7 @@ Panduan ini untuk **trainer/fasilitator** yang membawakan [Paket Materi Level 1]
 | 0:05–1:25 | Presentasi proyek (5 menit/peserta) | Untuk kelas > 14 orang, bagi menjadi 2 ruang paralel. Nilai dengan rubrik |
 | 1:25–1:35 | **Post-test** | Soal sama dengan pre-test |
 | 1:35–1:50 | Penilaian diri & umpan balik | Bagian B & C di [Evaluasi](evaluasi.md) |
-| 1:50–2:00 | Penutupan | Umumkan kelulusan, perkenalkan [Level 2: Menengah](../02-menengah.md) |
+| 1:50–2:00 | Penutupan | Umumkan kelulusan, perkenalkan [Level 2: Menengah](../02-menengah.md) ([paket materi](../menengah/README.md)) |
 
 ---
 
