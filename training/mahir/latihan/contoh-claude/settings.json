@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": ["Bash(pytest:*)", "Bash(ruff check:*)", "Bash(ruff format:*)"],
+    "deny": ["Read(./private/**)", "Read(./.env)"]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [{ "type": "command", "command": "ruff format ." }]
+      }
+    ]
+  }
+}

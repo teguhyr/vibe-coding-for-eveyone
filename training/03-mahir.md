@@ -6,6 +6,7 @@
 | **Durasi** | ± 45 jam (6–8 minggu) |
 | **Prasyarat** | Semua item [Checklist Level 2](02-menengah.md#-checklist-kelulusan-level-2) tercentang. Untuk Langkah 3, pasang juga **Node.js LTS** dari https://nodejs.org/ |
 | **Hasil akhir** | Anda bisa membangun dan mengamankan aplikasi web untuk tim, mengotomatiskan pemeriksaan kualitas, memakai fitur lanjutan Claude Code dan Claude API, men-deploy aplikasi, dan memimpin adopsi vibe coding di organisasi |
+| **Materi modul** | [Paket Materi Level 3](mahir/README.md): 10 modul, file latihan dan kunci yang sudah diuji, capstone, evaluasi, dan panduan fasilitator |
 
 ### Daftar Langkah
 
@@ -25,6 +26,8 @@
 ---
 
 ## Langkah 1: Dari Skrip ke Aplikasi: Arsitektur 3 Lapis
+
+> 📘 **Materi lengkap:** [Modul 1: Dari Skrip ke Aplikasi: Arsitektur 3 Lapis](mahir/modul-01-arsitektur-3-lapis.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Memahami kapan skrip sudah tidak cukup, dan bagaimana aplikasi web disusun.
 
@@ -67,6 +70,8 @@ projects/ruang-rapat/
 ---
 
 ## Langkah 2: Membangun API dengan Flask + SQLite
+
+> 📘 **Materi lengkap:** [Modul 2: Membangun API dengan Flask + SQLite](mahir/modul-02-api-flask.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Membuat API yang menyimpan data, menerapkan aturan bisnis, dan diuji otomatis.
 
@@ -287,6 +292,8 @@ Jalankan perintah yang sama sekali lagi. Kali ini API harus membalas dengan erro
 
 ## Langkah 3: Membangun Tampilan dengan React
 
+> 📘 **Materi lengkap:** [Modul 3: Membangun Tampilan dengan React](mahir/modul-03-react.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Membuat tampilan web yang memakai API dari Langkah 2.
 
 📖 **Konsep:** React membangun tampilan dari **komponen**, seperti balok LEGO. Setiap komponen punya **state** (data yang bisa berubah), dan saat state berubah, tampilan ikut berubah otomatis.
@@ -455,6 +462,8 @@ Buka alamat yang muncul (biasanya http://localhost:5173), lalu coba pesan ruang 
 
 ## Langkah 4: Keamanan Aplikasi (OWASP)
 
+> 📘 **Materi lengkap:** [Modul 4: Keamanan Aplikasi (OWASP)](mahir/modul-04-keamanan-owasp.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Mengenali dan mencegah celah keamanan paling umum di aplikasi web.
 
 📖 **Konsep:** **OWASP Top 10** adalah daftar risiko keamanan web paling umum (https://owasp.org/Top10/). AI bisa menulis kode yang berfungsi tetapi **tidak aman**, jadi Anda harus tahu apa yang dicari.
@@ -529,6 +538,8 @@ Urutkan dari yang paling berbahaya.
 ---
 
 ## Langkah 5: Fitur Lanjutan Claude Code
+
+> 📘 **Materi lengkap:** [Modul 5: Fitur Lanjutan Claude Code](mahir/modul-05-claude-code-lanjutan.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Mengotomatiskan pekerjaan berulang Anda **dengan** Claude Code itu sendiri.
 
@@ -628,6 +639,8 @@ Dokumentasi lengkap dan terbaru: https://code.claude.com/docs
 
 ## Langkah 6: Integrasi Claude API ke Aplikasi Anda
 
+> 📘 **Materi lengkap:** [Modul 6: Integrasi Claude API ke Aplikasi Anda](mahir/modul-06-claude-api.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Menambahkan kecerdasan AI **di dalam** aplikasi Anda, bukan hanya memakai AI untuk menulis kode.
 
 📖 **Konsep:** Di modul [09-customer-service](../modules/09-customer-service/), pesan pelanggan dikategorikan dengan **aturan kata kunci**. Aturan ini cepat, gratis, dan mudah dijelaskan, tetapi pesan dengan kata-kata tak terduga masuk ke `other`.
@@ -708,6 +721,8 @@ if __name__ == "__main__":
 
 ## Langkah 7: Otomatisasi Kualitas dengan CI/CD
 
+> 📘 **Materi lengkap:** [Modul 7: Otomatisasi Kualitas dengan CI/CD](mahir/modul-07-ci-cd.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Setiap perubahan kode otomatis dites, tanpa bergantung pada ingatan manusia.
 
 📖 **Konsep:** **CI (Continuous Integration)** seperti **satpam di pintu gudang**: setiap barang (perubahan kode) yang masuk diperiksa otomatis. Jika tes gagal, perubahan ditandai merah dan tidak boleh digabung.
@@ -744,6 +759,8 @@ Langkah lanjutan: atur **branch protection** di GitHub (*Settings → Branches*)
 ---
 
 ## Langkah 8: Deploy dengan Docker
+
+> 📘 **Materi lengkap:** [Modul 8: Deploy dengan Docker](mahir/modul-08-docker.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Mengemas aplikasi agar berjalan sama persis di komputer mana pun, dan siap dipakai tim.
 
@@ -798,6 +815,8 @@ Untuk frontend, jalankan `npm run build`. Hasilnya adalah file statis di `fronte
 
 ## Langkah 9: Berpikir Seperti Arsitek
 
+> 📘 **Materi lengkap:** [Modul 9: Berpikir Seperti Arsitek](mahir/modul-09-arsitek.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
+
 🎯 **Tujuan:** Mengambil keputusan teknis yang tepat **sebelum** menulis kode.
 
 📖 **Konsep: pilih alat yang paling sederhana yang cukup**
@@ -831,6 +850,8 @@ Simpan sebagai `docs/adr/001-aplikasi-ruang-rapat.md`. Enam bulan lagi, Anda (at
 ---
 
 ## Langkah 10: Menjadi AI Champion di Organisasi
+
+> 📘 **Materi lengkap:** [Modul 10: Menjadi AI Champion di Organisasi](mahir/modul-10-ai-champion.md): materi mendalam, latihan bertingkat, kuis, dan kunci jawaban.
 
 🎯 **Tujuan:** Menyebarkan kemampuan vibe coding ke tim, dengan aman dan terukur.
 
@@ -885,6 +906,8 @@ Simpan sebagai `docs/adr/001-aplikasi-ruang-rapat.md`. Enam bulan lagi, Anda (at
 | Layanan Pelanggan | Dashboard tiket dengan triase hibrida (aturan + Claude API) | [09-customer-service](../modules/09-customer-service/) |
 | Legal | Register kontrak dengan pengingat tenggat otomatis | [07-legal](../modules/07-legal/) |
 | General Affairs | Pemesanan ruang rapat lengkap dengan login dan peran admin | [10-general-affairs](../modules/10-general-affairs/) |
+
+📘 **Materi lengkap, langkah per sesi, rubrik, dan contoh referensi:** [Proyek Akhir (Capstone) Level 3](mahir/proyek-akhir.md)
 
 **Wajib ada:**
 1. **ADR** (Langkah 9): mengapa aplikasi web, dan bukan solusi lain

@@ -1,0 +1,7 @@
+# Jangan ikut menyalin file lokal ke image Docker.
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+test_app.py
+.env

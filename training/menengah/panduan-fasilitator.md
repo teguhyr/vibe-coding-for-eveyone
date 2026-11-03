@@ -132,7 +132,7 @@ python training/menengah/latihan/expense_claims.py
 | 0:05–1:25 | Presentasi proyek (10 menit/peserta) | Untuk kelas > 8 orang, bagi menjadi 2 ruang paralel (fasilitator dan asisten masing-masing menilai satu ruang dengan rubrik) |
 | 1:25–1:35 | **Post-test** | Soal sama dengan pre-test |
 | 1:35–1:50 | Penilaian diri & umpan balik | Bagian B & C di [Evaluasi](evaluasi.md) |
-| 1:50–2:00 | Penutupan | Umumkan kelulusan, perkenalkan [Level 3: Mahir](../03-mahir.md) |
+| 1:50–2:00 | Penutupan | Umumkan kelulusan, perkenalkan [Level 3: Mahir](../03-mahir.md) ([paket materi](../mahir/README.md)) |
 
 ### Rekap waktu
 
